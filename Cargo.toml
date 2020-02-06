@@ -1,0 +1,8 @@
+[package]
+name = "pipe2db"
+version = "0.1.0"
+authors = ["Damian J Pound <damian@thebestisp.com>"]
+edition = "2018"
+
+[dependencies]
+rusqlite={version="*", features=["bundled"]}
